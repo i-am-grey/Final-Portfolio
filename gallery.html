@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery 5x6 Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #1C6EA4;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-left: 50px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .gallery-section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .gallery-section h2 {
+      margin-bottom: 40px;
+      color: white;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: calc(20% - 12px);
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Web Designer, Digital Art Designer, Art Director</div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contactme.html">Contact Me</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="services.html">Services</a></li>
+    </ul>
+  </nav>
+
+  <section class="gallery-section">
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+      
+      <img src="gallery1.jpg" alt="Gallery 1">
+      <img src="gallery2.jpg" alt="Gallery 2">
+      <img src="gallery3.jpg" alt="Gallery 3">
+      <img src="gallery4.jpg" alt="Gallery 4">
+      <img src="gallery5.jpg" alt="Gallery 5">
+      <img src="gallery6.jpg" alt="Gallery 6">
+      <img src="gallery7.jpg" alt="Gallery 7">
+      <img src="gallery8.jpg" alt="Gallery 8">
+      <img src="gallery9.jpg" alt="Gallery 9">
+      
+    </div>
+  </section>
+
+</body>
+</html>
+

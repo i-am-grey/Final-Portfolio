@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services | Christian Rey Silorio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('aboutme.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin-left: 50px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      padding: 20px 20px;
+      text-align: center;
+
+    }  
+
+    header h1, p {
+      font-size: 30px;
+      margin-bottom: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px 10px;
+      border-radius: 10px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+    }
+
+    .service-card {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      width: 300px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .service-card:hover {
+      transform: scale(1.05);
+      background-color: #84994F
+    }
+
+    .service-card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .service-card p {
+      font-size: 16px;
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Web Design, Digital Art Design, Art Director</div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="services.html">Services</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div class="header-content"></div>
+    <h1><strong>Our Services</strong></h1>
+    <p>Offering creative and digital solutions tailored to your brand.</p>
+    </div>
+  </header>
+
+  <div class="services-container">
+    <div class="service-card">
+      <img src="serviceswebdesign.jpg" alt="Web Design" width="300" />
+      <h2>Web Design</h2>
+      <p>Beautiful, responsive, and user-friendly websites tailored to your audience and brand.</p>
+    </div>
+    <div class="service-card">
+      <img src="servicesdigitalartdesign.jpg" alt="Digital Art Design" width="300" />
+      <h2>Digital Art Design</h2>
+      <p>Custom illustrations and digital artwork that bring your ideas to life with style and impact.</p>
+    </div>
+    <div class="service-card">
+      <img src="servicesartdirector.jpg" alt="Art Director" width="170" />
+      <h2>Art Director</h2>
+      <p>Professional guidance on visual storytelling and creative direction for brands and campaigns.</p>
+    </div>
+  </div>
+
+</body>
+</html>
